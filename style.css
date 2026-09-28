@@ -1,3 +1,49 @@
 body{
-    background-image: url(086C.jpg);
+    background-image: url(pattern89.gif);
+    z-index: 0;
+
+}
+#floor{
+    background-image: url(picnic.jpg);
+
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+#pie{
+    background-image: url(pie.png);
+
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 100px;
+    left: 10%;
+    margin-left: -50px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+#abble{
+    background-image: url(abble.png);
+  
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 200px;
+    left: 60%;
+    margin-left: -50px;
+    z-index: 3;
+}
+#morepie{
+    background-image: url(morepie.png);
+  
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 200px;
+    left: 40%;
+    margin-left: -50px;
+    z-index: 4;
 }
